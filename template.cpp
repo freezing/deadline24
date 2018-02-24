@@ -4,6 +4,7 @@
 #include <map>
 #include <vector>
 #include <sstream>
+#include <ctime>
 #include <string>
 #include <cstdio>
 
@@ -51,10 +52,16 @@ int main(int argc, char** argv) {
         return 1;
     }
 
+    clock_t begin_time = clock();
+
     int num_test_cases;
     scanf("%d\n", &num_test_cases);
     for (int i = 0; i < num_test_cases; i++) {
         run_test_case(i);
     }
+
+    clock_t end_time = clock();
+    double elapsed_secs = double(end_time - begin_time) / CLOCKS_PER_SEC;
+    IF_DEBUG printf("Total execution time: %.3lf (s)\n", elapsed_secs);
     return 0;
 }

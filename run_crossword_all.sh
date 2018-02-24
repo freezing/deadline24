@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TEST_DIR="template"
-FILENAME="template"
+TEST_DIR="C_Crossword"
+FILENAME="crossword"
 START_TEST_SET=1
 END_TEST_SET=1
 
@@ -26,6 +26,6 @@ for test_set_num in $(seq ${START_TEST_SET} ${END_TEST_SET}); do
     input_filename=$(echo "$filename.in")
     output_filename=$(echo "$filename.out")
 
-    echo "./run_task.sh template < ${input_filename} > ${output_filename}"
-    ./run_task.sh template < ${input_filename} > ${output_filename}
+    echo "./run_task.sh C < ${input_filename} > ${output_filename}"
+    ./run_task.sh C < ${input_filename} > ${output_filename}
 done
