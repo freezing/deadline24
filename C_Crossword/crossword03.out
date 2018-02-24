@@ -245,4 +245,4 @@ Num letters: 26
 a 3 b 8 c 10 d 5 e 5 f 0 g 9 h 8 i 4 j 10 k 7 l 4 m 5 n 8 o 0 p 9 q 10 r 6 s 0 t 7 u 1 v 9 w 10 x 0 y 8 z 8 
 All letters: elryzaoaleikzeuoiildzokykrkpxbzducrbemakikktmuhivoylpjjelaorfzkoomzbbvoisacoizttoygkdmboztzgleoateelldlzzddvewenmkonvmyazbcarlnrldeomysdmidyoeeuqiar
 Dictionary size: 113809
-Total execution time: 0.673 (s)
+Total execution time: 0.141 (s)

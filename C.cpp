@@ -9,8 +9,6 @@
 
 using namespace std;
 
-#define DEBUG_LOGS
-
 #ifdef DEBUG_LOGS
 #define IF_DEBUG if(true)
 #else
